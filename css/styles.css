@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+  }
+  .header{
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    padding: 80px;
+    background-image: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190625/ourmid/pngtree-corporate-company-promotion-ppt-background-poster-image_260405.jpg");
+    background-size: 100% 100%; 
+  }
+  .logo{
+    height: 250px;
+    width: 250px;
+    border: 2px solid green;
+  }
+.row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.justify-content-center{
+  justify-content: center;
+  }
+.col{
+  float: left;
+  margin: 50px;
+  padding:50px;
+  background-color:  #FEF5E7;
+  text-align: center;
+}
+ #contacto,#catalogo{
+   text-align: center;
+   background-color: lavender;
+   border-radius: 2px;
+   border: 2px solid black;
+  }
+  .catalogo{
+    width: 180px;
+    height: 180px;
+  }
+  .modal-body>img{
+    width: 50%;
+  }
+ .carousel-inner>.item>img{
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   margin: auto;
+ }
+  #trabajos{
+    background-color:  #76D7C4;
+    border: 2px solid black;
+    border-radius: 2px;
+    text-align: center;
+  }
+#footer{
+  background-color:black;
+  color: blanchedalmond;
+  font-size:12px;
+}
+.small{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: #e3e4a3;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) { 
+    #catalogos,
+    #contacto{
+      border: 2px solid black;
+      border-radius: 2px;
+      font-size: 12px;
+      font-family: sans-serif; 
+    }
+      #trabajos,#footer{
+        background-color: #A3E4D7;
+        color: black;
+      }
+}
+  /* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+    /* para tablets: */
+    body {
+      text-align: center;
+      font-family: Impact,Arial, Helvetica, sans-serif;
+    }
+        #catalogo,
+        #contacto {
+            background-color: lavender;
+            border-radius: 2px;
+            border: 2px solid black;
+        }
+      #trabajos{
+      background-color: #7bd6a4;
+      border-radius: 2px;
+      border: 2px solid black;
+    }
+    #footer{
+        color: black ;
+        background-color: #E8F8F5;
+        border-radius: 2px;
+        border: 2px solid black;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    body {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    #contacto,#catalogo {
+      background-color:white;
+      border-radius: 2px;
+      border: 2px solid black;
+      font-family: fantasy;
+    }
+    #trabajos, #footer{
+        background-color:  #F5EEF8;
+    }
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+  .header{
+    border-radius: 2px;
+      border: 2px solid black;
+  }
+    #contacto {
+      background-color:white;
+      border-radius: 2px;
+      border: 2px solid black;
+      font-family: fantasy;
+    }
+    #catalogo{
+      background-color:white;
+      font-family: fantasy;
+    }
+    #trabajos, #footer{
+        background-color:  #FAE5D3;
+    }
+ }
